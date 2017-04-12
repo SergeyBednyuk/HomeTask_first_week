@@ -1,0 +1,1 @@
+D:\itstep\WCF\HomeTasks\HT1\HomeTask1\ServiceDiskInfo\bin\Debug\ServiceDiskInfo.exe.config
