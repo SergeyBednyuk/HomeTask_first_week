@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace ServiceDiskInfo
 {
@@ -24,8 +21,10 @@ namespace ServiceDiskInfo
 
             host.Open();
             Console.WriteLine("Host works");
-            Console.ReadKey();
+            Console.ReadKey();           
             Console.WriteLine("Host will close");
+            host.Close();
+            Thread.Sleep(5000);
         }      
     }
 }
