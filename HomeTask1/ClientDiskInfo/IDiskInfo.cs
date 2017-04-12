@@ -1,6 +1,6 @@
 ﻿using System.ServiceModel;
 
-namespace ServiceDiskInfo
+namespace ClientDiskInfo
 {
     [ServiceContract]
     interface IDiskInfo
